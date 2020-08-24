@@ -1,13 +1,13 @@
 EN_WHITELIST = '0123456789abcdefghijklmnopqrstuvwxyz ' # space is included in whitelist
 EN_BLACKLIST = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~\''
 
-FILENAME = 'data/chat.txt'
+FILENAME = 'chat.txt'
 
 limit = {
-        'maxq' : 20,
+        'maxq' : 100,
         'minq' : 0,
-        'maxa' : 20,
-        'mina' : 3
+        'maxa' : 100,
+        'mina' : 1
         }
 
 UNK = 'unk'
